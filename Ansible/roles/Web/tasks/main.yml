@@ -3,7 +3,7 @@
 - name: Deploy Image
   docker_container:
     name: flask
-    image: johnmops/python-app:{{ version }}
+    image: johnmops/python-app:{{ experimentVersion }}
     state: started
     restart: yes
     ports:
